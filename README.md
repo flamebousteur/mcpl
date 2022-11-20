@@ -1,6 +1,6 @@
 # mcpl (minecraft preprocessing language)
 
-mcpl looks like the c preprocessor with some minecraft specific features.
+mcpl looks like the c preprocessor with some specific features.
 
 ## Features
 ```c

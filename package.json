@@ -1,0 +1,23 @@
+{
+  "name": "mcpl",
+  "version": "1.0.0",
+  "description": "mcpl looks like the c preprocessor with some specific features.",
+  "main": ".\\src\\main.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flamebousteur/mcpl.git"
+  },
+  "keywords": [
+    "minecraft",
+    "datapack",
+    "preprocessor",
+    "mcpl",
+    "mcfunction"
+  ],
+  "author": "flamebousteur",
+  "license": "GPL-3.0-or-late",
+  "bugs": {
+    "url": "https://github.com/flamebousteur/mcpl/issues"
+  },
+  "homepage": "https://github.com/flamebousteur/mcpl#readme"
+}
