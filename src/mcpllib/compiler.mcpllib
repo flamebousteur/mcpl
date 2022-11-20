@@ -1,0 +1,4 @@
+#define MCPL_Vertion 0.1 // MCPL Version
+#define MCPL_Text_Version "0.1.0" // MCPL Text Version
+
+#define MCPL_Minecraft_Version 1.19 // Minecraft Version supported by MCPL

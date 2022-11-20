@@ -1,0 +1,7 @@
+// change minecraft command as function
+// read the functions list at https://minecraft.fandom.com/wiki/Commands
+// see specific command at https://minecraft.fandom.com/wiki/Commands/ (command)
+
+#function ability(target:string, ability:string, value:float)
+ability {target} {ability} {value}
+#endfunction
