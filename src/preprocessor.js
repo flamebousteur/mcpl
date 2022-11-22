@@ -66,10 +66,11 @@ function preprocessor (data = "", {
 					} else if (!inComment) newLine += char;
 				}
 			}
-			console.log(newLine);
 			lines[i] = newLine;
 		}
 	}
+
+	let defines = {}; // name: value
 
 	// preprocessor commands
 	if (preprocessor) {
@@ -88,7 +89,6 @@ function preprocessor (data = "", {
 					if (char == '"' || char == "'") {
 						inString = true;
 						stringChar = char;
-						newLine += char;
 					} else if (char == "#" && !inPreprocessor) {
 						inPreprocessor = true;
 					} else if (char == " " && inPreprocessor) {
@@ -99,9 +99,8 @@ function preprocessor (data = "", {
 					else newLine += char;
 				}
 			}
-			lines[i] = newLine;
-
 			if (preprocessorCommand != "") {}
+			lines[i] = newLine;
 		}
 	}
 
